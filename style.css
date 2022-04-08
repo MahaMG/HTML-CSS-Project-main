@@ -22,17 +22,22 @@ body {
     height: 200px;
     width: 150;
     position: relative;
+    padding-left: 150px;
+    padding-right: 270px;
 }
 
 .imgSummary {
     position: absolute;
     margin-left: 25px;
+    padding-top: 25px;
 
 }
 
 .infoSummary {
     position: relative;
     left: 200px;
+    margin-right: 10px;
+    padding-right: 150px;
 }
 
 
@@ -44,36 +49,65 @@ hr {
     font-size: 50px;
 }
 
+/* Table of my contacts */
 .myInfoTable {
     border: 1px solid rgb(100, 91, 91);
-    text-align: center;
     width:1000px; 
-    margin-left:4px; 
+    margin-left:180px; 
     margin-right:4px;
     padding: 2px 2px 2px 2px;
+}
+
+.filed-table1{
+    text-align: center;
+    border: 1px solid rgb(100, 91, 91);
+    width: 500px;
 }
 
 .table2 {
     border: 1px solid rgb(100, 91, 91);
-    text-align: left;
     width:1000px; 
-    margin-left:4px; 
+    margin-left:180px; 
     margin-right:4px;
+    position: sticky;
+
+}
+
+.filed-table2{
+    text-align: left;
+    border: 1px solid rgb(100, 91, 91);
     padding: 2px 2px 2px 2px;
-
+    width: 500px;
 }
 
-a {
-    color: black;
-}
 
-.contactButton{
+.Button{
+    position: sticky;
     background-color: red;
+    text-align: center;
+    width: 100px;
+    margin-right: 100px;
     
 }
 
 a {
-    text-decoration: none;
     display: inline-block;
+    text-decoration: none;
     padding: 8px 16px;
+}
+
+form {
+    position: sticky;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 20px 20px 20px 20px;
+}
+
+.fromUser {
+    text-align: center;
+    height: 30px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
